@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "kyrovisuals",
+  "version": "${version}",
+  "name": "KYRO VISUALS (PVP)",
+  "description": "A clean blue and black client-side PvP visuals HUD. No gameplay cheats.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.kyro.visuals.KyroVisualsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
